@@ -31,7 +31,6 @@ Average O(n^2) runtime
 """
 
 def insertionsort(arr):
-    print("Inside")
     for i in range(1, len(arr)):
         for x in range(i, 0, -1):
             if arr[x] < arr[x-1]:
